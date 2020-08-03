@@ -1,0 +1,62 @@
+spring:
+  application:
+    name: service-cms
+  profiles:
+    active: dev,oss
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 123
+    username: root
+    #填坑记录,mp在模糊查询时需要加上 useUnicode=true&characterEncoding=utf-8 大概率是中文与模糊查询冲突了
+    #不然就模糊查询查不到结果
+    url: jdbc:mysql://localhost:3306/edu?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+  jackson: #处理前端json的日期显示格式
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.4:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      datasource: #配置限流方案持久化
+        datasource1:
+          nacos:
+            data-id: ${spring.application.name} #对应nacos中的dataId
+            server-addr: 192.168.1.4:8848
+            group-id: DEFAULT_GROUP
+            #            namespace: public
+            #data-type 配置项表示 Converter 类型，Spring Cloud Alibaba Sentinel
+            #默认提供两种内置的值，分别是 json 和 xml (不填默认是json)
+            data-type: json
+            #配置表示该数据源中的规则属于哪种类型的规则
+            #(flow，degrade，authority，system, param-flow, gw-flow, gw-api-group)
+            #分别对应着 流控,降级,授权,系统,热点......后面不清楚了
+            rule-type: flow
+  redis:
+#    host: 192.168.43.11
+    host: localhost
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+        pool:
+          max-active: 20
+          max-wait: -1 #连接池用尽后等待的时间,负数为一直等待
+          max-idle: 5 #连接池中的最大空闲连接 默认 8
+          min-idle: 0 # 连接池中的最小空闲连接 默认 0
+####  application-dev.yml
+server:
+  port: 8101
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  mapper-locations: classpath:com/lhl/XXXXX/*/mapper/*.xml
+
+#\u6FC0\u6D3Bsentinel\u5BF9openfeign\u7684\u652F\u6301
+feign:
+  sentinel:
+    enabled: true
+
+

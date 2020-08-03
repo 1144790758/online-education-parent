@@ -1,0 +1,50 @@
+server:
+  port: 8222
+
+spring:
+  application:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: service-oss #路由id可以随便取
+          uri: lb://service-oss  #要路由的微服务名
+          predicates:
+            - Path=/edu_oss/** # 路径匹配
+        - id: service-sms
+          uri: lb://service-sms
+          predicates:
+            - Path=/servicesms/** # 路径匹配
+        - id: service-vod
+          uri: lb://service-vod
+          predicates:
+            - Path=/eduvod/** # 路径匹配
+        - id: service-cms
+          uri: lb://service-cms
+          predicates:
+            - Path=/servicecms/** # 路径匹配
+        - id: service-edu
+          uri: lb://service-edu
+          predicates:
+            - Path=/eduservice/** # 路径匹配
+        - id: service-order
+          uri: lb://service-order
+          predicates:
+            - Path=/orderservice/** # 路径匹配
+        - id: service-statistics
+          uri: lb://service-statistics
+          predicates:
+            - Path=/statistics/** # 路径匹配
+        - id: service-usercenter
+          uri: lb://service-usercenter
+          predicates:
+            - Path=/serviceUC/** # 路径匹配
+        - id: service-auth
+          uri: lb://service-auth
+          predicates:
+            - Path=/admin/** # 路径匹配
+    nacos:
+      discovery:
+        server-addr: localhost:8848

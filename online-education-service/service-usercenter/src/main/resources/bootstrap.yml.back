@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: service-usercenter
+  cloud:
+    nacos:
+      config:
+        namespace: 5ae12988-d147-4c32-9ce2-9c00c46cf4b3
+        file-extension: yml
+        server-addr: localhost:8848
+        ext-config:
+          - data-id: common.yml
+            refresh: true
+          - data-id: feign.yml
+            refresh: true
+          - data-id: redis.yml
+            refresh: true
+          - data-id: weixin.yml
+            refresh: true
