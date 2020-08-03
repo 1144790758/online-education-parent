@@ -20,7 +20,6 @@
         <module>service-usercenter</module>
         <module>service-order</module>
         <module>service-statistics</module>
-        <module>service-authority</module>
     </modules>
 
     <dependencies>

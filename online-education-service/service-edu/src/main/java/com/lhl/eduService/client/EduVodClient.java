@@ -13,5 +13,5 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient("service-vod")
 public interface EduVodClient {
     @DeleteMapping("/eduvod/deleteById/{id}")
-    CommonResult deleteById(@PathVariable String id);
+    public CommonResult deleteById(@PathVariable("id") String id);
 }
