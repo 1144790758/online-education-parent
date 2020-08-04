@@ -17,6 +17,10 @@
 - nacos版本使用的1.14  sentinel 版本1.7.2
 - service-oss service-vod service-sms 模块需要 阿里云accessKeyId 和 accessKeySecret
 - service-usercenter 需要配置微信开发平台的配置
+- 启动后端要其redis(默认端口号,配置文件中bind id 要关闭,关闭保护模式)
+- 要起nacos
+- 要起sentinel(java -jar XXX 就行) 不然远程template调用可能404找不到方法
+- 前端先进入主目录,前台后台都需要先npm install,然后修改本地ip地址 前台是config/dev.en.js,后台是/utils/request.js
 
 
 
@@ -30,24 +34,26 @@
 
 
 
-​							!["讲师列表"](\img\QQ截图20200804020003.png)
+!["讲师列表"](https://edu-avatar1.oss-cn-beijing.aliyuncs.com/img/QQ%E6%88%AA%E5%9B%BE20200804020003.png)
 
 
 
 !["讲师详情"](https://edu-avatar1.oss-cn-beijing.aliyuncs.com/img/%E8%AE%B2%E5%B8%88%E8%AF%A6%E6%83%85.png)
 
+
 !["课程详情"](https://edu-avatar1.oss-cn-beijing.aliyuncs.com/img/%E8%AF%BE%E7%A8%8B%E8%AF%A6%E6%83%85.png)
+
 
 !["视频播放"](https://edu-avatar1.oss-cn-beijing.aliyuncs.com/img/%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE.png)
 
+
 !["短信注册"](https://edu-avatar1.oss-cn-beijing.aliyuncs.com/img/%E7%9F%AD%E4%BF%A1%E6%B3%A8%E5%86%8C.png)
 
-![“支持微信登陆”](https://edu-avatar1.oss-cn-beijing.aliyuncs.com/img/%E6%94%AF%E6%8C%81%E5%BE%AE%E4%BF%A1%E7%99%BB%E5%BD%95.png)
 
+!["支持微信登陆"](https://edu-avatar1.oss-cn-beijing.aliyuncs.com/img/%E6%94%AF%E6%8C%81%E5%BE%AE%E4%BF%A1%E7%99%BB%E5%BD%95.png)
 
 
 - 后台系统展示
-
   
 
 !["讲师的管理与查询"](https://edu-avatar1.oss-cn-beijing.aliyuncs.com/img/%E5%90%8E%E5%8F%B0/%E8%AE%B2%E5%B8%88%E7%9A%84%E7%AE%A1%E7%90%86%E4%B8%8E%E6%9F%A5%E8%AF%A2.png)
