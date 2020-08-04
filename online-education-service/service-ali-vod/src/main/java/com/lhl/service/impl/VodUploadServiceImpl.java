@@ -24,7 +24,6 @@ import java.io.InputStream;
 
 /**
  * @athor:lhl
- * @create:2020-07-17 12:38
  */
 @Service
 public class VodUploadServiceImpl implements VodUploadService {

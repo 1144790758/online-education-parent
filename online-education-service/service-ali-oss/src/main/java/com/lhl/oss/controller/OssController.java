@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * @athor:lhl
- * @create:2020-07-04 1:24
  */
 @RestController
 @RequestMapping("/edu_oss")

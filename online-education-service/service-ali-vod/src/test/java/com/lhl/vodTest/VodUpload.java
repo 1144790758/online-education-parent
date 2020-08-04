@@ -7,7 +7,6 @@ import org.junit.Test;
 
 /**
  * @athor:lhl
- * @create:2020-07-17 11:04
  */
 public class VodUpload {
 

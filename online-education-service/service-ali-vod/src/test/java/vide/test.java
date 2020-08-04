@@ -8,7 +8,6 @@ import com.aliyuncs.vod.model.v20170321.GetVideoPlayAuthResponse;
 
 /**
  * @athor:lhl
- * @create:2020-07-29 15:29
  */
 public class test {
 

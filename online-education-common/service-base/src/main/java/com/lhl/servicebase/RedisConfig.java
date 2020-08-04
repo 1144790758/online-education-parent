@@ -20,7 +20,6 @@ import java.time.Duration;
 
 /**
  * @athor:lhl
- * @create:2020-07-20 13:50
  */
 @EnableCaching
 @Configuration

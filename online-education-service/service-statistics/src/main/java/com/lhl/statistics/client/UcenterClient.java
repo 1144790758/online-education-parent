@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * @athor:lhl
- * @create:2020-07-31 20:59
  */
 @FeignClient("service-usercenter")
 public interface UcenterClient {

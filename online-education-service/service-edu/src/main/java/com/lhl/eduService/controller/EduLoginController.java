@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @athor:lhl
- * @create:2020-07-01 22:58
  * 模拟登陆的controller
  */
 @RestController

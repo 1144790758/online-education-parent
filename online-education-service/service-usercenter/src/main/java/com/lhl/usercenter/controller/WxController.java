@@ -28,7 +28,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @athor:lhl
- * @create:2020-07-26 12:59
  * 用于微信登录的模块
  */
 @Controller

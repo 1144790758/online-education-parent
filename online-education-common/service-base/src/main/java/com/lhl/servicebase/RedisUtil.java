@@ -13,7 +13,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @athor:lhl
- * @create: 0-07-21 15:32
  */
 @Component
 public class RedisUtil {

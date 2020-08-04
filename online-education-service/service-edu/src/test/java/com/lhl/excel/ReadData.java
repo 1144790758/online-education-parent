@@ -4,7 +4,6 @@ import com.alibaba.excel.annotation.ExcelProperty;
 
 /**
  * @athor:lhl
- * @create:2020-07-04 19:28
  */
 public class ReadData {
     //设置列对应的属性

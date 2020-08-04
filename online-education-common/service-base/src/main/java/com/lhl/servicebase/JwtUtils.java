@@ -11,7 +11,6 @@ import java.util.Date;
 
 /**
  * @athor:lhl
- * @create:2020-07-21 14:41
  */
 public class JwtUtils {
     //设置过期时间

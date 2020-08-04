@@ -10,7 +10,6 @@ import java.io.InputStream;
 
 /**
  * @athor:lhl
- * @create:2020-07-04 19:31
  */
 public class TheMain {
     public static void main(String[] args) throws Exception {

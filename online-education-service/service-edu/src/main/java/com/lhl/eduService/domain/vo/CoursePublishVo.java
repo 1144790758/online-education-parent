@@ -7,7 +7,6 @@ import java.io.Serializable;
 
 /**
  * @athor:lhl
- * @create:2020-07-09 19:39
  */
 @ApiModel(value = "课程发布信息")
 @Data

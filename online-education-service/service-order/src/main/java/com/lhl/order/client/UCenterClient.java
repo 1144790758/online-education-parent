@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * @athor:lhl
- * @create:2020-07-31 0:21
  */
 @FeignClient("service-usercenter")
 public interface UCenterClient {

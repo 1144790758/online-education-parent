@@ -14,7 +14,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @athor:lhl
- * @create:2020-06-24 19:39
  */
 @Configuration
 @EnableSwagger2

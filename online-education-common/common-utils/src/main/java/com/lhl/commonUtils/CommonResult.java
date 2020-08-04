@@ -9,7 +9,6 @@ import java.util.Map;
 
 /**
  * @athor:lhl
- * @create:2020-06-24 21:25
  */
 @Data
 public class CommonResult {

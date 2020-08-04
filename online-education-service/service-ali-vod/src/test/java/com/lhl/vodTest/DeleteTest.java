@@ -6,7 +6,6 @@ import com.aliyuncs.vod.model.v20170321.DeleteVideoResponse;
 
 /**
  * @athor:lhl
- * @create:2020-07-17 17:51
  */
 public class DeleteTest {
 

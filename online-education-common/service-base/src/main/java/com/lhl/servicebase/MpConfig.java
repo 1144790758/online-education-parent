@@ -11,7 +11,6 @@ import java.util.Date;
 
 /**
  * @athor:lhl
- * @create:2020-06-24 18:50
  */
 @Configuration
 @MapperScan("com.lhl.EduService.mapper") //可以被@Mapper注解代替,咋们统一用@MapperScan

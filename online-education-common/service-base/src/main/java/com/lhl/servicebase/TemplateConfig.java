@@ -6,7 +6,6 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @athor:lhl
- * @create:2020-07-26 14:59
  */
 @Configuration
 public class TemplateConfig {

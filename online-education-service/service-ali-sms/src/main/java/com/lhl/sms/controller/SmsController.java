@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @athor:lhl
- * @create:2020-07-21 16:18
  */
 @RestController
 //@CrossOrigin

@@ -2,7 +2,6 @@ package com.lhl.sms.utils;
 
 /**
  * @athor:lhl
- * @create:2020-07-21 16:42
  */
 public class CodeUtils {
 

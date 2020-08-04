@@ -9,7 +9,6 @@ import java.util.List;
 
 /**
  * @athor:lhl
- * @create:2020-07-07 18:00
  */
 @Data
 @ApiModel(value = "章节信息")

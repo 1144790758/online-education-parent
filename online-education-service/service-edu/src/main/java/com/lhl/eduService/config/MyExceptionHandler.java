@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @athor:lhl
- * @create:2020-06-25 3:08
  */
 @ControllerAdvice
 @Slf4j

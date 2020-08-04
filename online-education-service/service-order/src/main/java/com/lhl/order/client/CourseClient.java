@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * @athor:lhl
- * @create:2020-07-31 0:30
  */
 @FeignClient("service-edu")
 public interface CourseClient {

@@ -10,7 +10,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @athor:lhl
- * @create:2020-07-21 17:10
  */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 @EnableSwagger2

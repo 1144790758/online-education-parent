@@ -10,7 +10,6 @@ import com.lhl.eduService.service.EduSubjectService;
 
 /**
  * @athor:lhl
- * @create:2020-07-04 21:25
  */
 public class SubjectExcelListener extends AnalysisEventListener<ExcelData> {
 

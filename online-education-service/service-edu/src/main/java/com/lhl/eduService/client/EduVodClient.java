@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * @athor:lhl
- * @create:2020-07-18 1:38
  */
 @FeignClient("service-vod")
 public interface EduVodClient {

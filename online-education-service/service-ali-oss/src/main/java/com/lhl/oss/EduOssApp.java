@@ -9,7 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @athor:lhl
- * @create:2020-07-04 0:54
  */
 @ComponentScan({"com.lhl"})
 @EnableDiscoveryClient

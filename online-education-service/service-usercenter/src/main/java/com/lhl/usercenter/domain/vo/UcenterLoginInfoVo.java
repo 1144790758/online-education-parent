@@ -5,7 +5,6 @@ import lombok.Data;
 
 /**
  * @athor:lhl
- * @create:2020-07-23 15:05
  */
 @Data
 public class UcenterLoginInfoVo {

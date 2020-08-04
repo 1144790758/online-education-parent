@@ -9,7 +9,6 @@ import java.math.BigDecimal;
 /**
  * 用于封装前端传来封装添加课程的实体类
  * @athor:lhl
- * @create:2020-07-05 23:35
  */
 @Data
 public class EduCourseData implements Serializable {

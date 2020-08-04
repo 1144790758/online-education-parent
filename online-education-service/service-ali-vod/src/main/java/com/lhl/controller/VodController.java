@@ -8,7 +8,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 /**
  * @athor:lhl
- * @create:2020-07-17 12:16
  */
 @RestController
 @RequestMapping("/eduvod")

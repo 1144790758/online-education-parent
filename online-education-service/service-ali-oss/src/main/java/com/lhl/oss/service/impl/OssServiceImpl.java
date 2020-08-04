@@ -17,7 +17,6 @@ import java.util.UUID;
 
 /**
  * @athor:lhl
- * @create:2020-07-04 1:25
  */
 @Service
 public class OssServiceImpl implements OssService {

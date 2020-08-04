@@ -9,7 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @athor:lhl
- * @create:2020-07-17 12:12
  */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 @EnableDiscoveryClient

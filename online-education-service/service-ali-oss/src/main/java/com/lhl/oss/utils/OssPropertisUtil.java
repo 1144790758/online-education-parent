@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @athor:lhl
- * @create:2020-07-04 1:23
  */
 @Component
 @PropertySource("classpath:application.properties")

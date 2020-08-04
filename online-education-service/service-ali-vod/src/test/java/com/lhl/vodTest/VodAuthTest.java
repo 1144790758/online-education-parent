@@ -8,7 +8,6 @@ import com.aliyuncs.vod.model.v20170321.GetVideoPlayAuthResponse;
 
 /**
  * @athor:lhl
- * @create:2020-07-11 20:59
  * 使用凭证播放视频,加密视频只能使用凭证播放
  */
 public class VodAuthTest {

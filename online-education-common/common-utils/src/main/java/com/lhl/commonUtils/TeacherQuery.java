@@ -9,7 +9,6 @@ import java.io.Serializable;
 /**
  * 用于封装复杂查询的`VO对象
  * @athor:lhl
- * @create:2020-06-25 1:01
  */
 @ApiModel(value = "Teacher查询对象", description = "讲师查询对象封装")
 @Data
